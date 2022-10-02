@@ -1,6 +1,51 @@
 body {
-    background: blue;
+    background: navy;
     text-align: center;
     color: white;
-    font-size: 30px;
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    padding: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.intro {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 0px;
+}
+
+.hiMyName {
+    /*border: 2px solid red; */
+    display: flex;
+    margin: 10px 0 -20px 60px;
+}
+
+.name {
+    /* border: 2px solid red; */
+    margin: -40px 0 0 60px;
+}
+
+.nameCaption {
+    margin: -40px 0 0 60px;
 }
